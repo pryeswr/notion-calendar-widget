@@ -1,0 +1,482 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6d6d6d; -webkit-text-stroke: #6d6d6d}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6b0001; -webkit-text-stroke: #6b0001}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #fb0007; -webkit-text-stroke: #fb0007}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #0000ff; -webkit-text-stroke: #0000ff}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #0f7001; -webkit-text-stroke: #0f7001}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #900112; -webkit-text-stroke: #900112}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; -webkit-text-stroke: #000000; min-height: 16.0px}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #093c94; -webkit-text-stroke: #093c94}
+    span.s1 {font-kerning: none; background-color: #fffffe}
+    span.s2 {font-kerning: none; color: #fb0007; background-color: #fffffe; -webkit-text-stroke: 0px #fb0007}
+    span.s3 {font-kerning: none; color: #2a2a2a; background-color: #fffffe; -webkit-text-stroke: 0px #2a2a2a}
+    span.s4 {font-kerning: none; color: #000000; background-color: #fffffe; -webkit-text-stroke: 0px #000000}
+    span.s5 {font-kerning: none; color: #0000ff; background-color: #fffffe; -webkit-text-stroke: 0px #0000ff}
+    span.s6 {font-kerning: none; color: #6b0001; background-color: #fffffe; -webkit-text-stroke: 0px #6b0001}
+    span.s7 {font-kerning: none; color: #900112; background-color: #fffffe; -webkit-text-stroke: 0px #900112}
+    span.s8 {font-kerning: none}
+    span.s9 {font-kerning: none; color: #093c94; background-color: #fffffe; -webkit-text-stroke: 0px #093c94}
+    span.s10 {font-kerning: none; color: #137646; background-color: #fffffe; -webkit-text-stroke: 0px #137646}
+    span.s11 {font-kerning: none; color: #0e6e6d; background-color: #fffffe; -webkit-text-stroke: 0px #0e6e6d}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE</span><span class="s2"> html</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;</span><span class="s1">html</span><span class="s4"> </span><span class="s2">lang</span><span class="s3">=</span><span class="s5">"en"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;</span><span class="s1">head</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s6">meta</span><span class="s4"> </span><span class="s1">charset</span><span class="s3">=</span><span class="s5">"UTF-8"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s6">meta</span><span class="s4"> </span><span class="s2">name</span><span class="s3">=</span><span class="s1">"viewport"</span><span class="s4"> </span><span class="s2">content</span><span class="s3">=</span><span class="s1">"width=device-width, initial-scale=1.0"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s6">title</span><span class="s3">&gt;</span><span class="s1">Aesthetic Mini Calendar for Notion</span><span class="s3">&lt;/</span><span class="s6">title</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;!-- Tailwind CSS --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s6">script</span><span class="s4"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://cdn.tailwindcss.com"</span><span class="s3">&gt;&lt;/</span><span class="s6">script</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;!-- Google Fonts: Inter &amp; Plus Jakarta Sans --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s6">link</span><span class="s4"> </span><span class="s2">rel</span><span class="s3">=</span><span class="s1">"preconnect"</span><span class="s4"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://fonts.googleapis.com"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s6">link</span><span class="s4"> </span><span class="s2">rel</span><span class="s3">=</span><span class="s1">"preconnect"</span><span class="s4"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://fonts.gstatic.com"</span><span class="s4"> </span><span class="s2">crossorigin</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s6">link</span><span class="s4"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700&amp;display=swap"</span><span class="s4"> </span><span class="s2">rel</span><span class="s3">=</span><span class="s1">"stylesheet"</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;!-- Lucide Icons --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s6">script</span><span class="s4"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://unpkg.com/lucide@latest"</span><span class="s3">&gt;&lt;/</span><span class="s6">script</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s1">script</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>tailwind.config = {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>darkMode: </span><span class="s7">'class'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>theme: {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>extend: {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span>fontFamily: {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>sans: [</span><span class="s7">'Inter'</span><span class="s1">, </span><span class="s7">'sans-serif'</span><span class="s1">],</span></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">            </span>display: [</span><span class="s1">'Plus Jakarta Sans'</span><span class="s4">, </span><span class="s1">'sans-serif'</span><span class="s4">],</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span>},</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span>colors: {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>notion: {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">              </span>lightBg: </span><span class="s7">'#FFFFFF'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">              </span>lightCard: </span><span class="s7">'#F7F7F5'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">              </span>lightBorder: </span><span class="s7">'#E9E9E7'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">              </span>lightText: </span><span class="s7">'#37352F'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">              </span>lightMuted: </span><span class="s7">'#787774'</span><span class="s1">,</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">              </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">              </span>darkBg: </span><span class="s7">'#191919'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">              </span>darkCard: </span><span class="s7">'#202020'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">              </span>darkBorder: </span><span class="s7">'#2F2F2F'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">              </span>darkText: </span><span class="s7">'#D4D4D4'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">              </span>darkMuted: </span><span class="s7">'#9B9B9B'</span><span class="s1">,</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">              </span>accent: </span><span class="s7">'#8B5CF6'</span><span class="s4">, </span><span class="s1">// Gentle lavender accent</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">              </span>accentLight: </span><span class="s7">'#DDD6FE'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">              </span>accentDark: </span><span class="s7">'#6D28D9'</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;/</span><span class="s1">script</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s1">style</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s6">body</span><span class="s1"> {</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">font-family:</span><span class="s4"> </span><span class="s7">'Inter'</span><span class="s4">, </span><span class="s9">sans-serif</span><span class="s4">;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">user-select:</span><span class="s4"> </span><span class="s9">none</span><span class="s4">;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">-webkit-tap-highlight-color:</span><span class="s4"> </span><span class="s9">transparent</span><span class="s4">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">/* Custom Scrollbar for Event Modal */</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">::-webkit-scrollbar</span><span class="s4"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s2">width:</span><span class="s1"> </span><span class="s10">4px</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">::-webkit-scrollbar-track</span><span class="s4"> {</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">background:</span><span class="s4"> </span><span class="s9">transparent</span><span class="s4">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">::-webkit-scrollbar-thumb</span><span class="s4"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s2">background:</span><span class="s1"> </span><span class="s9">rgba(</span><span class="s10">156</span><span class="s1">, </span><span class="s10">163</span><span class="s1">, </span><span class="s10">175</span><span class="s1">, </span><span class="s10">0.4</span><span class="s9">)</span><span class="s1">;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s10">4px</span><span class="s4">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">/* Subtle Animations */</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">.fade-in</span><span class="s4"> {</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s2">animation:</span><span class="s4"> </span><span class="s1">fadeIn</span><span class="s4"> </span><span class="s10">0.2s</span><span class="s4"> </span><span class="s1">cubic-bezier(</span><span class="s10">0.16</span><span class="s4">, </span><span class="s10">1</span><span class="s4">, </span><span class="s10">0.3</span><span class="s4">, </span><span class="s10">1</span><span class="s1">)</span><span class="s4">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">@keyframes</span><span class="s4"> </span><span class="s9">fadeIn</span><span class="s4"> {</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s9">from</span><span class="s4"> { </span><span class="s1">opacity:</span><span class="s4"> </span><span class="s10">0</span><span class="s4">; </span><span class="s1">transform:</span><span class="s4"> </span><span class="s9">scale(</span><span class="s10">0.97</span><span class="s9">)</span><span class="s4">; }</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s9">to</span><span class="s4"> { </span><span class="s1">opacity:</span><span class="s4"> </span><span class="s10">1</span><span class="s4">; </span><span class="s1">transform:</span><span class="s4"> </span><span class="s9">scale(</span><span class="s10">1</span><span class="s9">)</span><span class="s4">; }</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;/</span><span class="s1">style</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;/</span><span class="s1">head</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s3">&lt;</span><span class="s6">body</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"bg-notion-lightBg dark:bg-notion-darkBg text-notion-lightText dark:text-notion-darkText transition-colors duration-200 min-h-screen p-3 sm:p-4 flex flex-col items-center justify-center"</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;!-- Main Container --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full max-w-[340px] bg-notion-lightCard dark:bg-notion-darkCard border border-notion-lightBorder dark:border-notion-darkBorder rounded-2xl p-4 shadow-sm relative overflow-hidden fade-in"</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Top Bar Navigation &amp; Controls --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex items-center justify-between mb-4"</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;!-- Month &amp; Year --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex items-baseline space-x-1.5"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">h2</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"monthLabel"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"font-display font-bold text-lg tracking-tight text-notion-lightText dark:text-notion-darkText"</span><span class="s3">&gt;&lt;/</span><span class="s6">h2</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"yearLabel"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xs font-medium text-notion-lightMuted dark:text-notion-darkMuted"</span><span class="s3">&gt;&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;!-- Controls Right --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex items-center space-x-1"</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- Today Button --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">button</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"todayBtn"</span><span class="s4"> </span><span class="s2">title</span><span class="s3">=</span><span class="s1">"Go to Today"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"px-2 py-1 text-xs font-semibold rounded-lg bg-notion-lightBorder/50 dark:bg-notion-darkBorder/60 hover:bg-notion-accent/20 dark:hover:bg-notion-accent/30 text-notion-lightText dark:text-notion-darkText transition-all"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span>Today</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- Previous Month --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">button</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"prevBtn"</span><span class="s4"> </span><span class="s2">title</span><span class="s3">=</span><span class="s1">"Previous Month"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"p-1 rounded-lg text-notion-lightMuted dark:text-notion-darkMuted hover:text-notion-lightText dark:hover:text-notion-darkText hover:bg-notion-lightBorder/50 dark:hover:bg-notion-darkBorder transition-all"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">          </span></span><span class="s3">&lt;</span><span class="s6">i</span><span class="s4"> </span><span class="s2">data-lucide</span><span class="s3">=</span><span class="s1">"chevron-left"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-4 h-4"</span><span class="s3">&gt;&lt;/</span><span class="s6">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- Next Month --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">button</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"nextBtn"</span><span class="s4"> </span><span class="s2">title</span><span class="s3">=</span><span class="s1">"Next Month"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"p-1 rounded-lg text-notion-lightMuted dark:text-notion-darkMuted hover:text-notion-lightText dark:hover:text-notion-darkText hover:bg-notion-lightBorder/50 dark:hover:bg-notion-darkBorder transition-all"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">          </span></span><span class="s3">&lt;</span><span class="s6">i</span><span class="s4"> </span><span class="s2">data-lucide</span><span class="s3">=</span><span class="s1">"chevron-right"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-4 h-4"</span><span class="s3">&gt;&lt;/</span><span class="s6">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- Theme Toggle --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">button</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"themeToggleBtn"</span><span class="s4"> </span><span class="s2">title</span><span class="s3">=</span><span class="s1">"Toggle Theme"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"p-1 ml-1 rounded-lg text-notion-lightMuted dark:text-notion-darkMuted hover:text-notion-lightText dark:hover:text-notion-darkText hover:bg-notion-lightBorder/50 dark:hover:bg-notion-darkBorder transition-all"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">          </span></span><span class="s3">&lt;</span><span class="s6">i</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"themeIcon"</span><span class="s4"> </span><span class="s2">data-lucide</span><span class="s3">=</span><span class="s1">"moon"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-4 h-4"</span><span class="s3">&gt;&lt;/</span><span class="s6">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Weekday Headers --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"grid grid-cols-7 gap-1 mb-2 text-center"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-[11px] font-semibold text-red-400/80"</span><span class="s3">&gt;</span><span class="s4">Su</span><span class="s3">&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-[11px] font-semibold text-notion-lightMuted dark:text-notion-darkMuted"</span><span class="s3">&gt;</span><span class="s4">Mo</span><span class="s3">&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-[11px] font-semibold text-notion-lightMuted dark:text-notion-darkMuted"</span><span class="s3">&gt;</span><span class="s4">Tu</span><span class="s3">&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-[11px] font-semibold text-notion-lightMuted dark:text-notion-darkMuted"</span><span class="s3">&gt;</span><span class="s4">We</span><span class="s3">&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-[11px] font-semibold text-notion-lightMuted dark:text-notion-darkMuted"</span><span class="s3">&gt;</span><span class="s4">Th</span><span class="s3">&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-[11px] font-semibold text-notion-lightMuted dark:text-notion-darkMuted"</span><span class="s3">&gt;</span><span class="s4">Fr</span><span class="s3">&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-[11px] font-semibold text-notion-lightMuted dark:text-notion-darkMuted"</span><span class="s3">&gt;</span><span class="s4">Sa</span><span class="s3">&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Calendar Grid --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"calendarGrid"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"grid grid-cols-7 gap-1 text-center text-xs"</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;!-- Dynamically populated --&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Footer Summary Info --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"mt-3 pt-2.5 border-t border-notion-lightBorder/60 dark:border-notion-darkBorder/60 flex justify-between items-center text-[11px] text-notion-lightMuted dark:text-notion-darkMuted"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">span</span><span class="s1"> </span><span class="s2">id</span><span class="s3">=</span><span class="s5">"activeNotesSummary"</span><span class="s3">&gt;</span><span class="s1">0 upcoming events</span><span class="s3">&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"italic text-[10px] opacity-75"</span><span class="s3">&gt;</span><span class="s4">Notion Widget</span><span class="s3">&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;/</span><span class="s1">div</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;!-- Note/Event Details Drawer (Modal) --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"eventModal"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fixed inset-0 bg-black/40 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden opacity-0 transition-opacity duration-200"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"modalContent"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"bg-notion-lightBg dark:bg-notion-darkCard border border-notion-lightBorder dark:border-notion-darkBorder rounded-2xl w-full max-w-[310px] p-4 shadow-xl transform scale-95 transition-transform duration-200"</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">      </span></span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;!-- Modal Header --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex items-center justify-between pb-2 mb-3 border-b border-notion-lightBorder dark:border-notion-darkBorder"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">          </span></span><span class="s3">&lt;</span><span class="s6">h3</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"modalDateTitle"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"font-display font-bold text-sm text-notion-lightText dark:text-notion-darkText"</span><span class="s3">&gt;</span><span class="s4">Selected Date</span><span class="s3">&lt;/</span><span class="s6">h3</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">          </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"modalDaySub"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-[11px] text-notion-lightMuted dark:text-notion-darkMuted"</span><span class="s3">&gt;&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">button</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"closeModalBtn"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"p-1 rounded-lg text-notion-lightMuted hover:text-notion-lightText dark:hover:text-notion-darkText hover:bg-notion-lightBorder dark:hover:bg-notion-darkBorder"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">          </span></span><span class="s3">&lt;</span><span class="s6">i</span><span class="s4"> </span><span class="s1">data-lucide</span><span class="s3">=</span><span class="s5">"x"</span><span class="s4"> </span><span class="s1">class</span><span class="s3">=</span><span class="s5">"w-4 h-4"</span><span class="s3">&gt;&lt;/</span><span class="s6">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;!-- Existing Events List --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"eventsList"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"space-y-1.5 max-h-36 overflow-y-auto mb-3 pr-1"</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- Event items dynamically loaded --&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;!-- Add New Event Input --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s6">form</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"addEventForm"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex gap-1.5 pt-2 border-t border-notion-lightBorder/50 dark:border-notion-darkBorder/50"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">input</span><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s2">type</span><span class="s3">=</span><span class="s5">"text"</span><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">          </span></span><span class="s2">id</span><span class="s3">=</span><span class="s1">"eventInput"</span><span class="s4"><span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">          </span></span><span class="s2">placeholder</span><span class="s3">=</span><span class="s1">"Add quick note..."</span><span class="s4"><span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s2">required</span><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s2">maxlength</span><span class="s3">=</span><span class="s5">"40"</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">          </span></span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex-1 bg-notion-lightCard dark:bg-notion-darkBg border border-notion-lightBorder dark:border-notion-darkBorder text-xs text-notion-lightText dark:text-notion-darkText rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-notion-accent"</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">/&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">button</span><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s2">type</span><span class="s3">=</span><span class="s5">"submit"</span><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">          </span></span><span class="s2">class</span><span class="s3">=</span><span class="s1">"bg-notion-accent hover:bg-notion-accentDark text-white p-1.5 rounded-lg flex items-center justify-center transition-colors"</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">          </span></span><span class="s3">&lt;</span><span class="s6">i</span><span class="s4"> </span><span class="s1">data-lucide</span><span class="s3">=</span><span class="s5">"plus"</span><span class="s4"> </span><span class="s1">class</span><span class="s3">=</span><span class="s5">"w-4 h-4"</span><span class="s3">&gt;&lt;/</span><span class="s6">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;/</span><span class="s6">form</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;/</span><span class="s1">div</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s1">script</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// State Variables</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">let</span><span class="s1"> currentDate = </span><span class="s5">new</span><span class="s1"> </span><span class="s11">Date</span><span class="s1">();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">let</span><span class="s1"> selectedDateStr = </span><span class="s5">null</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">let</span><span class="s1"> events = </span><span class="s11">JSON</span><span class="s1">.parse(localStorage.getItem(</span><span class="s7">'notion_calendar_events'</span><span class="s1">) || </span><span class="s7">'{}'</span><span class="s1">);</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// DOM Elements</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> monthLabel = document.getElementById(</span><span class="s7">'monthLabel'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> yearLabel = document.getElementById(</span><span class="s7">'yearLabel'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> calendarGrid = document.getElementById(</span><span class="s7">'calendarGrid'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> prevBtn = document.getElementById(</span><span class="s7">'prevBtn'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> nextBtn = document.getElementById(</span><span class="s7">'nextBtn'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> todayBtn = document.getElementById(</span><span class="s7">'todayBtn'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> themeToggleBtn = document.getElementById(</span><span class="s7">'themeToggleBtn'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> themeIcon = document.getElementById(</span><span class="s7">'themeIcon'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> activeNotesSummary = document.getElementById(</span><span class="s7">'activeNotesSummary'</span><span class="s1">);</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Modal DOM Elements</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> eventModal = document.getElementById(</span><span class="s7">'eventModal'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> modalContent = document.getElementById(</span><span class="s7">'modalContent'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> closeModalBtn = document.getElementById(</span><span class="s7">'closeModalBtn'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> modalDateTitle = document.getElementById(</span><span class="s7">'modalDateTitle'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> modalDaySub = document.getElementById(</span><span class="s7">'modalDaySub'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> eventsList = document.getElementById(</span><span class="s7">'eventsList'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> addEventForm = document.addEventForm || document.getElementById(</span><span class="s7">'addEventForm'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> eventInput = document.getElementById(</span><span class="s7">'eventInput'</span><span class="s1">);</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Month Names</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">const</span><span class="s1"> monthNames = [</span></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">"January"</span><span class="s4">, </span><span class="s1">"February"</span><span class="s4">, </span><span class="s1">"March"</span><span class="s4">, </span><span class="s1">"April"</span><span class="s4">, </span><span class="s1">"May"</span><span class="s4">, </span><span class="s1">"June"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">"July"</span><span class="s4">, </span><span class="s1">"August"</span><span class="s4">, </span><span class="s1">"September"</span><span class="s4">, </span><span class="s1">"October"</span><span class="s4">, </span><span class="s1">"November"</span><span class="s4">, </span><span class="s1">"December"</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>];</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Initialize App</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">function</span><span class="s1"> init() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>setupTheme();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>renderCalendar();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>setupEventListeners();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>lucide.createIcons();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Setup Theme Mode (System default or saved preference)</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">function</span><span class="s1"> setupTheme() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> savedTheme = localStorage.getItem(</span><span class="s7">'notion_calendar_theme'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">if</span><span class="s1"> (savedTheme === </span><span class="s7">'dark'</span><span class="s1"> || (!savedTheme &amp;&amp; window.matchMedia(</span><span class="s7">'(prefers-color-scheme: dark)'</span><span class="s1">).matches)) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>document.documentElement.classList.add(</span><span class="s7">'dark'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>themeIcon.setAttribute(</span><span class="s7">'data-lucide'</span><span class="s1">, </span><span class="s7">'sun'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>} </span><span class="s5">else</span><span class="s1"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>document.documentElement.classList.remove(</span><span class="s7">'dark'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>themeIcon.setAttribute(</span><span class="s7">'data-lucide'</span><span class="s1">, </span><span class="s7">'moon'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>lucide.createIcons();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Toggle Light/Dark Mode</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>themeToggleBtn.addEventListener(</span><span class="s7">'click'</span><span class="s1">, () =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> isDark = document.documentElement.classList.toggle(</span><span class="s7">'dark'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>localStorage.setItem(</span><span class="s7">'notion_calendar_theme'</span><span class="s1">, isDark ? </span><span class="s7">'dark'</span><span class="s1"> : </span><span class="s7">'light'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>themeIcon.setAttribute(</span><span class="s7">'data-lucide'</span><span class="s1">, isDark ? </span><span class="s7">'sun'</span><span class="s1"> : </span><span class="s7">'moon'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>lucide.createIcons();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>});</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Render Calendar Logic</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">function</span><span class="s1"> renderCalendar() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> year = currentDate.getFullYear();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> month = currentDate.getMonth();</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">// Set Header Labels</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>monthLabel.textContent = monthNames[month];</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>yearLabel.textContent = year;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">// Get first day of month and total days in month</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> firstDayIndex = </span><span class="s5">new</span><span class="s1"> </span><span class="s11">Date</span><span class="s1">(year, month, </span><span class="s10">1</span><span class="s1">).getDay();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> totalDays = </span><span class="s5">new</span><span class="s1"> </span><span class="s11">Date</span><span class="s1">(year, month + </span><span class="s10">1</span><span class="s1">, </span><span class="s10">0</span><span class="s1">).getDate();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> prevMonthTotalDays = </span><span class="s5">new</span><span class="s1"> </span><span class="s11">Date</span><span class="s1">(year, month, </span><span class="s10">0</span><span class="s1">).getDate();</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> today = </span><span class="s5">new</span><span class="s1"> </span><span class="s11">Date</span><span class="s1">();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> isCurrentMonth = today.getFullYear() === year &amp;&amp; today.getMonth() === month;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>calendarGrid.innerHTML = </span><span class="s7">''</span><span class="s1">;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">// Previous Month Filler Days</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">for</span><span class="s1"> (</span><span class="s5">let</span><span class="s1"> i = firstDayIndex - </span><span class="s10">1</span><span class="s1">; i &gt;= </span><span class="s10">0</span><span class="s1">; i--) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s1"> dayNum = prevMonthTotalDays - i;</span></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s4"> dayEl = createDayElement(dayNum, </span><span class="s1">'text-notion-lightMuted/40 dark:text-notion-darkMuted/30 cursor-default'</span><span class="s4">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>calendarGrid.appendChild(dayEl);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">// Current Month Days</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">let</span><span class="s1"> totalNotesThisMonth = </span><span class="s10">0</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">for</span><span class="s1"> (</span><span class="s5">let</span><span class="s1"> day = </span><span class="s10">1</span><span class="s1">; day &lt;= totalDays; day++) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s1"> dateKey = </span><span class="s7">`</span><span class="s1">${year}</span><span class="s7">-</span><span class="s1">${</span><span class="s11">String</span><span class="s1">(month + </span><span class="s10">1</span><span class="s1">).padStart(</span><span class="s10">2</span><span class="s1">, </span><span class="s7">'0'</span><span class="s1">)}</span><span class="s7">-</span><span class="s1">${</span><span class="s11">String</span><span class="s1">(day).padStart(</span><span class="s10">2</span><span class="s1">, </span><span class="s7">'0'</span><span class="s1">)}</span><span class="s7">`</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s1"> isToday = isCurrentMonth &amp;&amp; day === today.getDate();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s1"> hasEvents = events[dateKey] &amp;&amp; events[dateKey].length &gt; </span><span class="s10">0</span><span class="s1">;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">if</span><span class="s1"> (hasEvents) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span>totalNotesThisMonth += events[dateKey].length;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s1"> dayEl = document.createElement(</span><span class="s7">'button'</span><span class="s1">);</span></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">        </span>dayEl.className = </span><span class="s1">`relative aspect-square flex flex-col items-center justify-center rounded-xl font-medium text-xs transition-all duration-150 focus:outline-none hover:bg-notion-lightBorder/60 dark:hover:bg-notion-darkBorder/60 </span><span class="s4">${</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span>isToday<span class="Apple-converted-space"> </span></span></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">            </span>? </span><span class="s1">'bg-notion-accent text-white font-bold shadow-sm hover:bg-notion-accentDark'</span><span class="s4"><span class="Apple-converted-space"> </span></span></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">            </span>: </span><span class="s1">'text-notion-lightText dark:text-notion-darkText'</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span><span class="s7">`</span><span class="s1">;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>dayEl.innerHTML = </span><span class="s7">`</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">          </span>&lt;span&gt;</span><span class="s4">${day}</span><span class="s1">&lt;/span&gt;</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s4">${hasEvents ? </span><span class="s1">`&lt;span class="absolute bottom-1 w-1 h-1 rounded-full </span><span class="s4">${isToday ? </span><span class="s1">'bg-white'</span><span class="s4"> : </span><span class="s1">'bg-notion-accent'</span><span class="s4">}</span><span class="s1">"&gt;&lt;/span&gt;`</span><span class="s4"> : </span><span class="s1">''</span><span class="s4">}</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">        </span>`</span><span class="s4">;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>dayEl.addEventListener(</span><span class="s7">'click'</span><span class="s1">, () =&gt; openModal(dateKey, day, month, year));</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>calendarGrid.appendChild(dayEl);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">// Next Month Filler Days (to complete 6 rows = 42 cells total for consistent grid height)</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> totalGridCells = calendarGrid.children.length;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> remainingCells = </span><span class="s10">42</span><span class="s1"> - totalGridCells;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">for</span><span class="s1"> (</span><span class="s5">let</span><span class="s1"> day = </span><span class="s10">1</span><span class="s1">; day &lt;= remainingCells; day++) {</span></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s4"> dayEl = createDayElement(day, </span><span class="s1">'text-notion-lightMuted/40 dark:text-notion-darkMuted/30 cursor-default'</span><span class="s4">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>calendarGrid.appendChild(dayEl);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">// Update summary counter</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>activeNotesSummary.textContent = </span><span class="s7">`</span><span class="s1">${totalNotesThisMonth}</span><span class="s7"> event</span><span class="s1">${totalNotesThisMonth === </span><span class="s10">1</span><span class="s1"> ? </span><span class="s7">''</span><span class="s1"> : </span><span class="s7">'s'</span><span class="s1">}</span><span class="s7"> this month`</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Helper for generating non-interactive filler day elements</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">function</span><span class="s1"> createDayElement(text, customClasses) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> el = document.createElement(</span><span class="s7">'div'</span><span class="s1">);</span></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">      </span>el.className = </span><span class="s1">`aspect-square flex items-center justify-center text-xs font-normal </span><span class="s4">${customClasses}</span><span class="s1">`</span><span class="s4">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>el.textContent = text;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">return</span><span class="s1"> el;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Open Event Modal</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">function</span><span class="s1"> openModal(dateKey, day, month, year) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>selectedDateStr = dateKey;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> dateObj = </span><span class="s5">new</span><span class="s1"> </span><span class="s11">Date</span><span class="s1">(year, month, day);</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">      </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> dayName = dateObj.toLocaleDateString(</span><span class="s7">'en-US'</span><span class="s1">, { weekday: </span><span class="s7">'long'</span><span class="s1"> });</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>modalDateTitle.textContent = </span><span class="s7">`</span><span class="s1">${monthNames[month]}</span><span class="s7"> </span><span class="s1">${day}</span><span class="s7">, </span><span class="s1">${year}</span><span class="s7">`</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>modalDaySub.textContent = dayName;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>renderEventsList();</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>eventModal.classList.remove(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>setTimeout(() =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>eventModal.classList.remove(</span><span class="s7">'opacity-0'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>modalContent.classList.remove(</span><span class="s7">'scale-95'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>}, </span><span class="s10">10</span><span class="s1">);</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>eventInput.focus();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Close Event Modal</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">function</span><span class="s1"> closeModal() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>eventModal.classList.add(</span><span class="s7">'opacity-0'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>modalContent.classList.add(</span><span class="s7">'scale-95'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>setTimeout(() =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>eventModal.classList.add(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>selectedDateStr = </span><span class="s5">null</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>eventInput.value = </span><span class="s7">''</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>}, </span><span class="s10">200</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Render Events inside Modal</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">function</span><span class="s1"> renderEventsList() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>eventsList.innerHTML = </span><span class="s7">''</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> dateEvents = events[selectedDateStr] || [];</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">if</span><span class="s1"> (dateEvents.length === </span><span class="s10">0</span><span class="s1">) {</span></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">        </span>eventsList.innerHTML = </span><span class="s1">`&lt;p class="text-xs text-notion-lightMuted dark:text-notion-darkMuted italic text-center py-2"&gt;No notes for this date.&lt;/p&gt;`</span><span class="s4">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">return</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>dateEvents.forEach((evText, index) =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s1"> evItem = document.createElement(</span><span class="s7">'div'</span><span class="s1">);</span></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">        </span>evItem.className = </span><span class="s1">'flex items-center justify-between bg-notion-lightCard dark:bg-notion-darkBg border border-notion-lightBorder dark:border-notion-darkBorder rounded-lg px-2.5 py-1.5 text-xs group'</span><span class="s4">;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">        </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>evItem.innerHTML = </span><span class="s7">`</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">          </span>&lt;span class="text-notion-lightText dark:text-notion-darkText break-all pr-2"&gt;</span><span class="s4">${escapeHtml(evText)}</span><span class="s1">&lt;/span&gt;</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">          </span>&lt;button onclick="deleteEvent(</span><span class="s4">${index}</span><span class="s1">)" class="text-notion-lightMuted hover:text-red-500 opacity-80 group-hover:opacity-100 transition-opacity p-0.5"&gt;</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">            </span>&lt;i data-lucide="trash-2" class="w-3.5 h-3.5"&gt;&lt;/i&gt;</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/button&gt;</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">        </span>`</span><span class="s4">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>eventsList.appendChild(evItem);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>});</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>lucide.createIcons();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Add New Event</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>addEventForm.addEventListener(</span><span class="s7">'submit'</span><span class="s1">, (e) =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>e.preventDefault();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s1"> val = eventInput.value.trim();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">if</span><span class="s1"> (!val || !selectedDateStr) </span><span class="s5">return</span><span class="s1">;</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">if</span><span class="s1"> (!events[selectedDateStr]) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>events[selectedDateStr] = [];</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>events[selectedDateStr].push(val);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>localStorage.setItem(</span><span class="s7">'notion_calendar_events'</span><span class="s1">, </span><span class="s11">JSON</span><span class="s1">.stringify(events));</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>eventInput.value = </span><span class="s7">''</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>renderEventsList();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>renderCalendar();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>});</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Delete Event</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>window.deleteEvent = </span><span class="s5">function</span><span class="s1">(index) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">if</span><span class="s1"> (!selectedDateStr || !events[selectedDateStr]) </span><span class="s5">return</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>events[selectedDateStr].splice(index, </span><span class="s10">1</span><span class="s1">);</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">      </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">if</span><span class="s1"> (events[selectedDateStr].length === </span><span class="s10">0</span><span class="s1">) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">delete</span><span class="s1"> events[selectedDateStr];</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>localStorage.setItem(</span><span class="s7">'notion_calendar_events'</span><span class="s1">, </span><span class="s11">JSON</span><span class="s1">.stringify(events));</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>renderEventsList();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>renderCalendar();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>};</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Helper: Prevent XSS in HTML string</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">function</span><span class="s1"> escapeHtml(text) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">return</span><span class="s1"> text.replace(</span><span class="s6">/[&amp;&lt;&gt;"']/</span><span class="s5">g</span><span class="s1">, </span><span class="s5">function</span><span class="s1">(m) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">return</span><span class="s1"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s7">'&amp;'</span><span class="s1">: </span><span class="s7">'&amp;amp;'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s7">'&lt;'</span><span class="s1">: </span><span class="s7">'&amp;lt;'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s7">'&gt;'</span><span class="s1">: </span><span class="s7">'&amp;gt;'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s7">'"'</span><span class="s1">: </span><span class="s7">'&amp;quot;'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s7">"'"</span><span class="s1">: </span><span class="s7">'&amp;#039;'</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}[m];</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>});</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Setup Event Listeners for Navigation</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">function</span><span class="s1"> setupEventListeners() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>prevBtn.addEventListener(</span><span class="s7">'click'</span><span class="s1">, () =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>currentDate.setMonth(currentDate.getMonth() - </span><span class="s10">1</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>renderCalendar();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>});</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>nextBtn.addEventListener(</span><span class="s7">'click'</span><span class="s1">, () =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>currentDate.setMonth(currentDate.getMonth() + </span><span class="s10">1</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>renderCalendar();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>});</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>todayBtn.addEventListener(</span><span class="s7">'click'</span><span class="s1">, () =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>currentDate = </span><span class="s5">new</span><span class="s1"> </span><span class="s11">Date</span><span class="s1">();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>renderCalendar();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>});</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>closeModalBtn.addEventListener(</span><span class="s7">'click'</span><span class="s1">, closeModal);</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">// Close modal on backdrop click</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>eventModal.addEventListener(</span><span class="s7">'click'</span><span class="s1">, (e) =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">if</span><span class="s1"> (e.target === eventModal) closeModal();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>});</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s1">// Escape key to close modal</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>document.addEventListener(</span><span class="s7">'keydown'</span><span class="s1">, (e) =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">if</span><span class="s1"> (e.key === </span><span class="s7">'Escape'</span><span class="s1"> &amp;&amp; !eventModal.classList.contains(</span><span class="s7">'hidden'</span><span class="s1">)) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">          </span>closeModal();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>});</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p8"><span class="s8"></span><br></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// Initialize on load</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>window.onload = init;</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;/</span><span class="s1">script</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;/</span><span class="s1">body</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;/</span><span class="s1">html</span><span class="s3">&gt;</span></p>
+</body>
+</html>
